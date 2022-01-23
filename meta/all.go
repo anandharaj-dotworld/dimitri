@@ -8,6 +8,7 @@ func All() types.All {
 		PairedBle: GetBle(),
 		Storage:   GetStorage(),
 		Memory:    GetMemory(),
+		Battery:   GetBattery(),
 	}
 	return allType
 }
